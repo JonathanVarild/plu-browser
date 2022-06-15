@@ -1,4 +1,5 @@
 import React from "react";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
 
 import Header from "../components/Header";
 import CategorizedList from "../components/CategorizedList";
@@ -7,15 +8,15 @@ import ProductItem from "../components/ProductItem";
 function Browse() {
 	return (
 		<>
-			<Header />
+			<Header title="Produktlista" icon={faFilter} />
 			<CategorizedList title="A">
-				<ProductItem></ProductItem>
-				<ProductItem></ProductItem>
+				<ProductItem title="Äpple" subtitle="Royal Gala" pluCode="0000" />
+				<ProductItem title="Äpple" subtitle="Royal Gala" pluCode="0000" />
 			</CategorizedList>
 			<CategorizedList title="B">
-				<ProductItem></ProductItem>
-				<ProductItem></ProductItem>
-				<ProductItem></ProductItem>
+				<ProductItem title="Äpple" subtitle="Royal Gala" pluCode="0000" />
+				<ProductItem title="Äpple" subtitle="Royal Gala" pluCode="0000" />
+				<ProductItem title="Äpple" subtitle="Royal Gala" pluCode="0000" />
 			</CategorizedList>
 		</>
 	);

@@ -2,7 +2,7 @@ Header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 2.5rem;
+	margin: 1rem;
 }
 
 Header h1 {
@@ -10,5 +10,5 @@ Header h1 {
 }
 
 Header svg {
-	height: 1.5rem;
+	height: 1.5rem !important;
 }
