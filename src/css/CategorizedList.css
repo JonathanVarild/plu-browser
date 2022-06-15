@@ -1,0 +1,16 @@
+.categorizedList {
+	margin-bottom: 2rem;
+}
+
+.categorizedList h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	border-bottom: 1px solid var(--main-green);
+	margin-bottom: 1rem;
+}
+
+.itemList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
