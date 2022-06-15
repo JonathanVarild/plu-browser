@@ -1,0 +1,52 @@
+.productOverview {
+	position: relative;
+	height: 100vh;
+	z-index: 100;
+	background: var(--background-gray);
+}
+
+.productName {
+	display: flex;
+}
+
+.productName svg {
+	height: 3.3rem;
+	color: var(--darker-gray);
+}
+
+.productName div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1.1rem;
+}
+
+.productName h2 {
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	color: var(--darker-gray);
+}
+
+.productName h3 {
+	font-size: 1rem;
+	line-height: 1.2rem;
+	color: var(--primary-gray);
+}
+
+.productImage img {
+	width: 100%;
+}
+
+.PLUWidget {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--darker-gray);
+	gap: 1rem;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+.PLUWidget svg {
+	height: 3rem;
+}
