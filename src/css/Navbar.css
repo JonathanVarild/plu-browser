@@ -1,0 +1,26 @@
+#navContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+	height: 5rem;
+	border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-inline: 1rem;
+    padding: 1.5rem;
+	background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px;
+}
+
+nav svg {
+    height: 100% !important;
+    color: var(--primary-gray);
+}
+
+.activeNav {
+    color: var(--primary-green);
+}
