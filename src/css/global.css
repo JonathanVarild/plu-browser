@@ -2,9 +2,11 @@
 
 :root {
 	--primary-green: #00aa46;
+	--secondary-green: #0d7639;
 	--primary-gray: #b6b6b6;
 	--darker-gray: #4c4c4c;
 	--outline-gray: #dedede;
+	--hover-gray: rgb(247, 247, 247);
 	--background-gray: #f1f1f1;
 }
 
