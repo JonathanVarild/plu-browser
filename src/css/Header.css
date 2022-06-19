@@ -10,5 +10,9 @@ Header h1 {
 }
 
 Header svg {
-	height: 1.5rem !important;
+	height: 1.7rem !important;
+}
+
+Header svg:active {
+	color: var(--secondary-green);
 }
