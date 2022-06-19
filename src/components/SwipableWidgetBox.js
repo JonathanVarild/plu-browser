@@ -24,7 +24,7 @@ function SwipableWidgetBox({ children, id, className, test }) {
 	}
 
 	return (
-		<WidgetBox id={id} className={className}>
+		<WidgetBox id={id} className={"swipableAreaContainer" + ((className && " " + className) || "")}>
 			<div className="swipableContentArea" onScroll={scrollManager}>
 				{children}
 			</div>
