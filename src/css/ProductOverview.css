@@ -1,8 +1,12 @@
 .productOverview {
 	position: relative;
-	height: 100vh;
 	z-index: 100;
 	background: var(--background-gray);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	gap: 1rem;
+	justify-content: space-between;
 }
 
 .productName {
@@ -33,7 +37,16 @@
 	color: var(--primary-gray);
 }
 
+.productImage {
+	flex-grow: 100;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .productImage img {
+	display: block;
+	margin: auto;
 	width: 100%;
 }
 
@@ -49,4 +62,18 @@
 
 .PLUWidget svg {
 	height: 3rem;
+}
+
+.productReturn {
+	display: flex;
+	margin-bottom: 2rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	gap: 0.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.productReturn:active {
+	background-color: var(--hover-gray);
 }

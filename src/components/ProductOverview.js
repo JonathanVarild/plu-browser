@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBox, faPenToSquare, faBarcode } from "@fortawesome/free-solid-svg-icons";
+import { faBox, faPenToSquare, faBarcode, faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 
 import apple from "../media/apple.jpg";
 import "../css/ProductOverview.css";
@@ -19,9 +19,7 @@ function ProductOverview() {
 					<h3>Royal Gala</h3>
 				</div>
 			</WidgetBox>
-			<WidgetBox className="productImage">
-				<img src={apple} alt="" />
-			</WidgetBox>
+			<WidgetBox className="productImage" style={{backgroundImage: `url(${apple})`}} />
 
 			<SwipableWidgetBox>
 				<div className="PLUWidget">
@@ -37,6 +35,10 @@ function ProductOverview() {
 					<div>00 003</div>
 				</div>
 			</SwipableWidgetBox>
+			<WidgetBox className="productReturn">
+				<FontAwesomeIcon icon={faRotateLeft} />
+				<div>Återgå</div>
+			</WidgetBox>
 		</div>
 	);
 }
