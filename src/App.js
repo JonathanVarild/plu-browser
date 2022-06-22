@@ -3,14 +3,14 @@ import React from "react";
 import "./css/global.css";
 
 import Navbar from "./components/Navbar";
-import Browse from "./routes/Browse";
+import Browse from "./pages/Browse";
 import ProductOverview from "./components/ProductOverview";
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<ProductOverview />
+			<Browse />
 		</>
 	);
 }
