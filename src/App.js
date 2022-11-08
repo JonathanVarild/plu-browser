@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./css/global.css";
 
@@ -10,7 +11,12 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Browse />
+			<BrowserRouter>
+				<Routes>
+					<Route index element={<Browse />} />
+					<Route path="overview" element={<ProductOverview />} />
+				</Routes>
+			</BrowserRouter>
 		</>
 	);
 }

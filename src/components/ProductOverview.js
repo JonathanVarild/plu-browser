@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBox, faPenToSquare, faBarcode, faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,6 +10,9 @@ import WidgetBox from "./WidgetBox";
 import SwipableWidgetBox from "./SwipableWidgetBox";
 
 function ProductOverview() {
+
+	const navigate = useNavigate();
+
 	return (
 		<div className="productOverview">
 			<Header title="Produktöversikt" icon={faPenToSquare} />
@@ -35,7 +39,7 @@ function ProductOverview() {
 					<div>00 003</div>
 				</div>
 			</SwipableWidgetBox>
-			<WidgetBox className="productReturn">
+			<WidgetBox className="productReturn" onClick={() => navigate(-1)}>
 				<FontAwesomeIcon icon={faRotateLeft} />
 				<div>Återgå</div>
 			</WidgetBox>

@@ -6,6 +6,7 @@
 	border-radius: 15px;
 	background-color: white;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	text-decoration: none;
 }
 
 .productItem:active {
@@ -27,6 +28,7 @@
 .productItem h3 {
 	font-size: 1.4rem;
 	font-weight: 700;
+	color: var(--primary-green);
 }
 
 .productItem h4 {
