@@ -1,7 +1,7 @@
 # PLU Browser
-This project was is a PWA created for fun in order to make work easier at my previous workplace. The idea of the app was to give cashiers an easy and efficient way to search for "price look-up codes" in order to charge the right amount for different fruits, vegetables, etc.
+This project is a Progressive Web App created in order to assist the workflow for new colleagues at my previous workplace. The idea of the app was to give cashiers an easy and efficient way to find the correct "Price Look-Up Codes" ("PLU codes") in order to charge the right amount for different fruits, vegetables, etc.
 
 ![Demo GIF](https://i.imgur.com/VINl7rt.gif)
 
 ## Project Info
-The project was initally intended as a personal project that wasn't intended for the public. It was not intended to be released has not been looked into since it was last worked on. It has not been created with responsiveness in mind and shall only be viewed on mobile sized viewports. 
+This project was initally intended as a personal project that wasn't intended for the public. It was not intended to be released, is not finished and may contain bad practices. It is only compatible with certain screen sizes.
